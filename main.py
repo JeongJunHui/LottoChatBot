@@ -16,10 +16,10 @@ from flask import Flask, request, make_response, render_template
 
 app = Flask(__name__)
 
-slack_token = 'xoxb-506062083639-507463819346-iTdDZuvwy02e6ve6sRRa7UNt'
-slack_client_id = '506062083639.508515047799'
-slack_client_secret = '3bbbceb05406a645496aa117c63c464e'
-slack_verification = 'vvXRkVr1fEoAImlNecbmqvOe'
+slack_token = ''
+slack_client_id = ''
+slack_client_secret = ''
+slack_verification = ''
 sc = SlackClient(slack_token)
 
 def _crawl_naver_keywords(text):
